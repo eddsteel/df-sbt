@@ -1,2 +1,0 @@
-export SBT_OPTS="$SBT_OPTS -Xms512M -Xmx1536M -Xss512M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=384M"
-export SBT_OPTS="$SBT_OPTS -Dfile.encoding=UTF-8"

@@ -1,0 +1,21 @@
+# SYMLINK HERE FROM /usr/local/etc/sbtopts
+
+# give sbt more memory (adjust as necessary)
+-mem 1024
+ 
+# needed for jzmq
+-J-Djava.library.path=/usr/local/lib
+ 
+-J-Dsbt.override.build.repos=true
+ 
+# misc java options
+-J-XX:+CMSClassUnloadingEnabled
+-J-XX:MaxPermSize=384M
+-J-Dfile.encoding=UTF-8
+ 
+# OPTIONAL - fine tune sbt's memory usage:
+-J-Xms512M
+-J-Xss512M
+-J-Xmx4G
+-Duser.timezone=UTC
+-jvm-debug 5008
