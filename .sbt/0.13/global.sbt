@@ -1,1 +1,2 @@
-//net.virtualvoid.sbt.graph.Plugin.graphSettings
+cancelable in Global := true
+forcegc := true

@@ -1,13 +1,16 @@
 # SYMLINK HERE FROM /usr/local/etc/sbtopts
 
+# OLD JAVA
+#-java-home /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
+
 # Toggle away-from-work repos
-#-Dsbt.repository.config=/Users/edward/.sbt/defaultrepositories
+-Dsbt.repository.config=/Users/edward/.sbt/defaultrepositories
 
 # give sbt more memory (adjust as necessary)
 -mem 2048
- 
+
 -J-Dsbt.override.build.repos=true
- 
+
 -J-XX:+CMSClassUnloadingEnabled
 -J-XX:+UseConcMarkSweepGC
 -J-XX:ReservedCodeCacheSize=256m
@@ -18,5 +21,3 @@
 -J-Xmx2G
 
 #-jvm-debug 5008
-
-
