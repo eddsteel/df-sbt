@@ -1,0 +1,11 @@
+*
+!/.sbt/0.13/global.sbt
+!/.sbt/0.13/plugins
+!/.sbt/0.13/plugins/dependency-graph.sbt
+!/.sbt/0.13/plugins/dirty-money.sbt
+!/.sbt/0.13/plugins/ensime.sbt
+!/.sbt/0.13/plugins/sbt-updates.sbt
+!/.sbt/opts
+/.sbt/boot
+project
+target
