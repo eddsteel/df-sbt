@@ -1,1 +1,1 @@
-addSbtPlugin("org.ensime" % "sbt-ensime" % "0.5.2-SNAPSHOT")
+addSbtPlugin("org.ensime" % "sbt-ensime" % "1.12.12")
