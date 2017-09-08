@@ -1,4 +1,4 @@
-# SYMLINK HERE FROM /usr/local/etc/sbtopts
+# SYMLINK HERE ~/.sbt/opts FROM /usr/local/etc/sbtopts
 
 # OLD JAVA
 #-java-home /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
