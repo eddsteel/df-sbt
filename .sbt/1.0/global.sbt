@@ -5,3 +5,5 @@ testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.ScalaTest, "-oDF"))
 cancelable in Global := true
 
 shellPrompt := { state => "> " }
+
+publishMavenStyle := true
